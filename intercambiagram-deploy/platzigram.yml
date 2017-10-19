@@ -1,0 +1,20 @@
+---
+- hosts: intercambiagram*
+  pre_tasks:
+    - name: Update apt repository
+      apt: update_cache=yes
+  roles:
+    - intercambiagram
+  vars:
+    - projects:
+      - intercambiagram-db
+      - intercambiagram-client
+      - intercambiagram-api
+      - intercambiagram-ws
+      - intercambiagram
+    - services:
+      - intercambiagram-api-pictures
+      - intercambiagram-api-users
+      - intercambiagram-api-auth
+      - intercambiagram-ws
+      - intercambiagram

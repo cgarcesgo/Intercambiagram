@@ -1,0 +1,35 @@
+{
+  "name": "intercambiagram-client",
+  "version": "1.0.0",
+  "description": "Intercambiagram API Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianduque/intercambiagram-client.git"
+  },
+  "author": "Julian Duque <julianduquej@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianduque/intercambiagram-client/issues"
+  },
+  "homepage": "https://github.com/julianduque/intercambiagram-client#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-eslint": "^6.0.5",
+    "nock": "^8.0.0",
+    "standard": "^7.1.2",
+    "uuid-base62": "^0.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "intercambiagram-db": "file:../intercambiagram-db",
+    "request-promise": "^3.0.0"
+  }
+}
