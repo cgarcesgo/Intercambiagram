@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julianduque/intercambiagram-ws.git"
+    "url": "git+https://github.com/cgarcesgo/intercambiagram-ws.git"
   },
-  "author": "Julian Duque <julianduquej@gmail.com>",
+  "author": "Carlos Garces <c@carlosgarcesg.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianduque/intercambiagram-ws/issues"
+    "url": "https://github.com/cgarcesgo/intercambiagram-ws/issues"
   },
-  "homepage": "https://github.com/julianduque/intercambiagram-ws#readme",
+  "homepage": "https://github.com/cgarcesgo/intercambiagram-ws#readme",
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "standard": "^7.1.2"

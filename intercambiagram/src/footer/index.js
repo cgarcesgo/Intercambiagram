@@ -11,7 +11,7 @@ var el = yo`<footer class="site-footer">
         </ul>
       </div>
       <div class="col s12 l3 push-l6 center-align">
-        2016 Intercambiagram<br>
+        2017 Intercambiagram<br>
         <small>
           ${translate.message('educational.only')}
         </small>

@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julianduque/intercambiagram-api.git"
+    "url": "git+https://github.com/cgarcesgo/intercambiagram-api.git"
   },
-  "author": "Julian Duque <julianduquej@gmail.com>",
+  "author": "Carlos Garces <c@carlosgarcesg.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianduque/intercambiagram-api/issues"
+    "url": "https://github.com/cgarcesgo/intercambiagram-api/issues"
   },
-  "homepage": "https://github.com/julianduque/intercambiagram-api#readme",
+  "homepage": "https://github.com/cgarcesgo/intercambiagram-api#readme",
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-eslint": "^6.0.5",
