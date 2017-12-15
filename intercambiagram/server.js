@@ -6,7 +6,7 @@ var ext = require('file-extension');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var expressSession = require('express-session');
-var passport = require('passport');
+/var passport = require('passport');
 var intercambiagram = require('intercambiagram-client')
 var auth = require('./auth')
 
